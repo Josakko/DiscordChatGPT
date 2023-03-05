@@ -24,6 +24,9 @@ client.on('messageCreate', async (message) => {
     if (message.author.bot) return; 
     if (message.channel.id !== process.env.CHANNEL) return; 
     if (message.content.startsWith("!")) return;
+	
+    await message.channel.sendTyping();
+	
     const prompt = message.content; 
   
     const replay = await openai.createCompletion({
