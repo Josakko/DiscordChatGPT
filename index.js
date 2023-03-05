@@ -26,7 +26,7 @@ client.on('messageCreate', async (message) => {
     if (message.content.startsWith("!")) return;
     const prompt = message.content; 
   
-    const reply = await openai.createCompletion({
+    const replay = await openai.createCompletion({
         model: "text-davinci-003",
         prompt: prompt,
         temperature: 0.7,
@@ -35,7 +35,8 @@ client.on('messageCreate', async (message) => {
         frequency_penalty: 0,
         presence_penalty: 0,
         }); 
-        message.reply(reply.data.choices[0].text); 
+        message.reply(replay.data.choices[0].text);
+	console.log(`User ${message.author.username} asked:" ${prompt}"`)
     });
 
 client.login(process.env.TOKEN);
