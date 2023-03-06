@@ -3,7 +3,7 @@ This bot made in JS will allow you to use ChatGPT in your discord server
 
 # Usage
 
-1. Go to the [discord developer portal](https://discord.com/developers/applications), sign in, and click `New Application`. Choose any name, click accept and create. Next go to the `Bot` section and scroll click `Add Bot`. Now scroll dwon unti you see `MESSAGE CONTENT INTENT` and then enable that option, after that you can scroll back up to the top where you will see `Reset Token` that you need to click and click on `Copy` button.
+1. Go to the [discord developer portal](https://discord.com/developers/applications), sign in, and click `New Application`. Choose any name, click accept and create. Next go to the `Bot` section and click `Add Bot`. Now scroll dwon unti you see `MESSAGE CONTENT INTENT` and then enable that option, after that you can scroll back up to the top where you will see `Reset Token` that you need to click and click on `Copy` button.
 - **IMPORTANT:** DO NOT share copied token! Others can use this to control your bot!
 2. Download executable file [here](https://www.mediafire.com/file/32ckjo7i1zxb8lk/JK_ChatBot.zip/file) and unzip it (or just use index.js, but I recommend you to use executable file for simplicity).
 3. In the unziped folder open `.env` file and replace "your token here" whit copied token then go to  [OpenAi Api website](https://platform.openai.com/account/api-keys), then click on `create new secret` and on popup window click on `Copy` button and `Ok`. Next go to that `.env` file and replace "your openai api key here" whit copied api key.
