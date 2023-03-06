@@ -10,7 +10,7 @@ This bot made in JS will allow you to use ChatGPT in your discord server
 - **IMPORTANT:** DO NOT share copied Api Key whit anyone!
 4. Now go to Discord server you want to use for this bot and pick a channel for the bot and then `Right click` on that channel an click on `Copy ID` (if you don't see that option navigate to `user settings` then `Advanced` and enable `Developer Mode`, now you can try to copy Id again) and in `.env` file replace "id of channel in your discord server that you want to use" whit Copied Channel Id.
 5. For the last step run `index.exe` in the folder that you unziped and click on the invite link and invite the bot to the server where is the channel that you want to use (server whit the channel whit the Id that you copied earlier) and go to chosen channel and the bot will respond to all messages only in the channel that you chose earlier.
-- **IMPORTANT:** If you close terminal window that opened after running `index.exe` the bot will go offline
+- **IMPORTANT:** If you close terminal window that opened after running `index.exe` the bot will go offline!
 - **IMPORTANT:**  If you put "!" on the start of the message that message will be ignored by the bot!
 
 ## Need Help?
